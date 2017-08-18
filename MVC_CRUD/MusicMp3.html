@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script>
+        window.addEventListener("load",init);
+        var audio;
+        var  song_value;
+        function init() {
+            audio = document.getElementById("audio");
+            songs = document.getElementsByClassName("song");
+            for(var i = 0; i < songs.length;++i){
+                songs[i].addEventListener("click",change_song);
+
+            }
+        }
+        function  play_song() {
+            audio.play();
+        }
+        function pause_song() {
+            audio.pause();
+        }
+        function  change_song() {
+            song_value = event.srcElement.innerHTML;
+            audio.pause;
+            audio.startTime = 0;
+            audio.src = " "+song_value+".mp3";
+                    audio.play()
+        }
+
+    </script>
+
+</head>
+<body>
+<h1>Music Player</h1>
+<audio controls="controls" id="audio">
+    <source src="All%20Time%20Low%20.mp3">
+</audio>
+<button onclick="play_song()">Play</button>
+<button onclick="pause_song()">Pause</button>
+<br><br>
+<a href="#" class="song">All time low</a>
+<br>
+<a href="#" class="song">by your side</a>
+<br>
+<a href="#" class="song">Perfect Strangers</a>
+<br>
+<a href="#" class="song">Sorry</a>
+
+</body>
+</html>
