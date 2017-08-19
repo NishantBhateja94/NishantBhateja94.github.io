@@ -231,7 +231,7 @@ overflow: hidden;
    }
 #images {
 
-    width: 1366px;
+    width:100%;
 
 scale(2, 2);
     animation: slider 20s infinite linear;
