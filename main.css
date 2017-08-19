@@ -14,7 +14,7 @@ body{
 
 
 #container {
-    overflow-x: hidden;
+    overflow: hidden;
 }
 
 #header .row ul li{
@@ -560,6 +560,9 @@ size:500px 500px;
        margin-left: 7px;
     letter-spacing: 0.09em;
 }
+.owl-carousel img{
+    height: 100%;
+}
 #section_7 .red-bar{
     width: 38px;
     height: 3px;
@@ -642,19 +645,19 @@ size:500px 500px;
  #section_8 .one img{
      height: 271px;
      margin-top: 3px;
-     width: 751px;
+     width: 100%
  }
  #section_8 .two img{
      margin-left: -31px;
      margin-bottom: -94px;
      margin-right: 447px;
      height: 279px;
-     width: 515px;
+     width: 100%;
  }
  #section_8 .three img{
      margin-left: -75px;
      height: 270px;
-     width: 71%;
+     width: 70%;
      margin-top: 5px;
  }
  .three img{
@@ -791,7 +794,7 @@ text-transform: uppercase;
     margin-left: -33px;
 }
 #section_9 .icon img{
-    width: 104%;
+    width: 100%;
 }
 #section_9{
     background-color: #F4F4F4;
