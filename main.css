@@ -2057,7 +2057,7 @@ margin-top: -30px;
         font-size: 22px;
     }
 }
-@media (max-width: 360px) {
+@media (max-width: 320px) {
     .head_on {
         padding-left: 113px;
         margin-top: -20px;
