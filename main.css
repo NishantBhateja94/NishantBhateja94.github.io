@@ -243,21 +243,27 @@ background-repeat: no-repeat;
 @keyframes slider {
     0%{
         background-image: url("https://in.bmscdn.com/showcaseimage/eventtrailer/spider-man-homecoming-dell-04-07-2017-20-36.jpg");
+        width: 100%;
     }
     20%{
         background-image: url("https://in.bmscdn.com/showcaseimage/eventimage/spider-man-homecoming-3d-06-07-2017-08-13-27-693.jpg");
+        width: 100%;
     }
     40%{
         background-image: url("https://in.bmscdn.com/showcaseimage/eventimage/road-to-ultra-08-07-2017-02-55-52-455.jpg");
+         width: 100%;
     }
     60%{
         background-image: url("https://in.bmscdn.com/showcaseimage/eventimage/jagga-jasoos-05-07-2017-11-48-01-424.jpg");
+        width: 100%;
     }
     80%{
         background-image: url("https://in.bmscdn.com/showcaseimage/eventimage/judwaa-2-05-06-2017-10-13-40-778.jpg");
+        width: 100%;
     }
     100%{
         background-image: url("https://in.bmscdn.com/showcaseimage/eventtrailer/spider-man-homecoming-dell-04-07-2017-20-36.jpg");
+        width: 100%;
     }
 }
 #section_1{
@@ -657,7 +663,7 @@ size:500px 500px;
  #section_8 .three img{
      margin-left: -75px;
      height: 270px;
-     width: 70%;
+     width: 69%;
      margin-top: 5px;
  }
  .three img{
@@ -728,7 +734,7 @@ size:500px 500px;
 .download input[value="DOWNLOAD NOW"]{
 
     background-color: white;
-    font-size: 27px;
+    font-size: 26px;
     border-radius: 3px;
     padding-top: 2px;
     margin-top: 5px;
